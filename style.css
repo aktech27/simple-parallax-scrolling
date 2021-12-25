@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: min(15vw, 40px);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  background: linear-gradient(45deg, black, black, gray, white);
+  background-position: left;
+  background-clip: text;
+  background-size: 400%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: bg-color 2s infinite alternate ease;
+}
+@keyframes bg-color {
+  to {
+    background-position: right;
+  }
+}
+section:nth-child(1) {
+  background: url("http://source.unsplash.com/random/900x500/?aurora");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section:nth-child(2) {
+  background: url("http://source.unsplash.com/random/900x500/?mountainview");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section:nth-child(3) {
+  background: url("http://source.unsplash.com/random/900x500/?road");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section:nth-child(4) {
+  background: url("http://source.unsplash.com/random/900x500/?grass");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section:nth-child(5) {
+  background: url("http://source.unsplash.com/random/900x500/?clouds");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section:nth-child(6) {
+  background: url("http://source.unsplash.com/random/900x500/?silhoutte");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section:nth-child(7) {
+  background: url("http://source.unsplash.com/random/900x500/?scenary");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
